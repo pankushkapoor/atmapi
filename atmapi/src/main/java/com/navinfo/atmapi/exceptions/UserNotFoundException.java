@@ -1,0 +1,12 @@
+package com.navinfo.atmapi.exceptions;
+
+public class UserNotFoundException extends Exception{
+	
+	public UserNotFoundException() {
+		super();
+	}
+	
+	public UserNotFoundException(String message) {
+		super(message);
+	}
+}
