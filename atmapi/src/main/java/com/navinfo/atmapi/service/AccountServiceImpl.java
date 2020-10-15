@@ -56,7 +56,7 @@ public class AccountServiceImpl implements AccountService{
 		double initialBalance = account.getBalance(); //should be min 1000
 		if(accountNumber <= 0) return false;
 		if(accountName == null) return false;
-		if(pin <= 0 || pin > 9999) return false;
+		if(pin < 1000 || pin > 9999) return false;
 		if(initialBalance < 1000) return false;
 		return true;
 	}
