@@ -16,7 +16,8 @@ JSON Object : {"accountNumber":"105", "accountName":"icici", "pin":"1234","balan
 # Generating an OTP
 To perform any of those functionalities (except Account Creation), the user will have to generate a one time password. This can be done by using following sample URL:
 
-https://localhost:8080/atm/getotp and following sample JSON object: 
+https://localhost:8080/atm/getotp and following sample JSON object:
+
   { 
   "accountNumber":"105", 
   "accountName":"icici", 
