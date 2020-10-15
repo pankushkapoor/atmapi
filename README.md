@@ -10,12 +10,11 @@ This API can be used to perform following functionalities:
 # Creating an Account
 To create an account, the following URL and sample JSON object can be used. Make sure to follow certain rules while creating an account (Minimum balance: 1000, Pin should be 4 digit).
 
-URL : https://localhost:8080/atm/createaccount
-
+URL : https://localhost:8080/atm/createaccount    
 JSON Object : {"accountNumber":"105", "accountName":"icici", "pin":"1234","balance":"1500"}
 
 # Generating an OTP
-To perform any of those functionalities (except Account Creation), the user will have to generate a one time password. 
+To perform any of those functionalities (except Account Creation), the user will have to generate a one time password.  
 This can be done by using following sample URL: https://localhost:8080/atm/getotp and following sample JSON object: 
   { 
   "accountNumber":"105", 
